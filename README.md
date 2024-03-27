@@ -1,0 +1,1 @@
+# SSAFY_side_projects
