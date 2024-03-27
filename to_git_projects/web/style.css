@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif; /* 폰트 설정 */
+}
+
+.background-image {
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* 요소들을 세로로 정렬 */
+    justify-content: center; /* 중앙 정렬 */
+    align-items: center; /* 가로 방향에서도 중앙 정렬 */
+    background-image: url('background.jpg'); /* 배경 이미지 설정 */
+    background-size: cover;
+    background-position: center;
+    color: white; /* 전체 글씨 색상 기본값 설정 */
+}
+
+.timer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+    border-radius: 10px;
+    margin-bottom: 20px; /* 타이머와 온도 정보 간격 조정 */
+}
+
+.hangang-temperature-container {
+    position: absolute;
+    top: 20px; /* 상단에서 20px의 간격을 둠 */
+    text-align: center;
+    width: 100%; /* 너비를 화면 전체로 설정 */
+}
+
+#timer {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #FFF; /* 타이머 글씨 색상 */
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hangang-temperature-container {
+    margin-top: 189px; /* 타이머와의 간격을 5cm(약 189px)로 설정 */
+}
